@@ -62,3 +62,39 @@ tr:nth-child(odd) {
     align-items: center;
     justify-content: center;
 }
+@media screen and (max-width:600px) {
+    #table{
+        width: 50%;
+        height: 50%;
+    }
+    .container{
+        background:linear-gradient(45deg,yellow,#302b63,#24243e);
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #pagination{
+        display:flex;
+        
+        background-color: blue;
+        padding: 10px 40px;
+        border-radius: 6px;
+        
+    }
+    #pagination div{
+        background-color: #333;
+        border: 2px solid red;
+        text-align: center;
+        height: 50px;
+        width: 50px;
+        border-radius: 6px;
+        margin:3px;
+        line-height: 50px;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+}
