@@ -66,17 +66,31 @@ tr:nth-child(even) {
 }
 
 @media screen and (max-width: 600px) {
-    #table{
-        width: 90%;
-    }
-    
-    #pagination{
-        padding: 5px 10px;
-    }
-    
-    #pagination div{
-        height: 40px;
-        width: 40px;
-        line-height: 40px;
-    }
+  #table {
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 30px;
+  }
+  
+  #table td, #table th {
+    font-size: 12px;
+    padding: 8px;
+  }
+  
+  #pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  
+  #pagination div {
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    margin: 2px;
+    font-size: 14px;
+  }
 }
+
